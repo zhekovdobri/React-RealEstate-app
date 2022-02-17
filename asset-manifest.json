@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-RealEstate-app/static/css/main.b64a1e2c.chunk.css",
+    "main.js": "/React-RealEstate-app/static/js/main.d93e3afc.chunk.js",
+    "main.js.map": "/React-RealEstate-app/static/js/main.d93e3afc.chunk.js.map",
+    "runtime-main.js": "/React-RealEstate-app/static/js/runtime-main.093776de.js",
+    "runtime-main.js.map": "/React-RealEstate-app/static/js/runtime-main.093776de.js.map",
+    "static/js/2.1cdd3f92.chunk.js": "/React-RealEstate-app/static/js/2.1cdd3f92.chunk.js",
+    "static/js/2.1cdd3f92.chunk.js.map": "/React-RealEstate-app/static/js/2.1cdd3f92.chunk.js.map",
+    "index.html": "/React-RealEstate-app/index.html",
+    "static/css/main.b64a1e2c.chunk.css.map": "/React-RealEstate-app/static/css/main.b64a1e2c.chunk.css.map",
+    "static/js/2.1cdd3f92.chunk.js.LICENSE.txt": "/React-RealEstate-app/static/js/2.1cdd3f92.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-RealEstate-app/static/media/218.3ebeaf44.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.093776de.js",
+    "static/js/2.1cdd3f92.chunk.js",
+    "static/css/main.b64a1e2c.chunk.css",
+    "static/js/main.d93e3afc.chunk.js"
+  ]
+}
