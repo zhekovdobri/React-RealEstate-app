@@ -24,7 +24,23 @@
 <br />
 
 ## Description
-The React-RealEstate-app was created with React and VSC. The project has modern design style. It contains the main app functionality. The languages used for this project are JavaScript 72.4%, CSS 21.5% HTML 6.1%. The user can add a new task and time to the list of tasks. He can delete them and add them again. How it works. First you have to push the green button to unfold the form. This way you can write your task and time in to the text fields. When you finish - use the "Save Task" button to save your data. You can delete your task with the close "x" button or pushing the blue "notes" button on the left side of the task. There are three tasks by default/after reload. I added clock and calendar as a components to make the app more precise and accurate. Later on I decided to use only the clock.
+The project is a simple React app created with VSC. The web page has modern design style. It contains the main app functionality. The languages used for this project are JavaScript 69.3%, CSS 19.8% HTML 6.110.9%. The user can easily send an inquiry for new real estate. All the information about the real estates, including the new inquirys are stored in Firebase API database. To store data in Firebase API database I used `fetch()` function and `POST` request in my NewMeetup.js component.
+```function addMeetupHandler(meetupData) {
+        fetch(
+            'https://react-first-app-91e36-default-rtdb.firebaseio.com/apartments.json',
+                { 
+                method: 'POST', 
+                body: JSON.stringify(meetupData),
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }
+        ).then(() => {
+            history.replace('/')
+        });
+    }
+```
+Last but not least, I used that fetch() returns a promise object. This way - to get rid of the information, after the POST request was send I used history hook and replace method. To get the information back from the Firebase database API, I used the same `fetch()` URL with GET request and `useEffect()` Hook. By the way teh GET request is coming by default - that is why was no need to write the body structure and the method type.
 
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
